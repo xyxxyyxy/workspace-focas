@@ -1,0 +1,7 @@
+env: tensorflow-1.12
+machine: gpu
+data:
+  - source: xyxxyyxy/datasets/focas/1
+    destination: data
+  - source: floydhub/datasets/pretrained-ssdlite-where-is-syd/1
+    destination: pretrained
